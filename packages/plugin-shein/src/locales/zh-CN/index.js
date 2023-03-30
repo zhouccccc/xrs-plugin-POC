@@ -1,3 +1,3 @@
 export default {
-    'app.content': '这是一段插件架构国际化测试内容',
+    'shein.content': '我是Shein插件的翻译',
 };

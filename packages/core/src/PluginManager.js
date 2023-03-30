@@ -8,8 +8,7 @@ class PluginManager {
             const pluginLoadPromises = plugins.map(pluginNameSpace => {
                 switch (pluginNameSpace) {
                     case 'shein':
-                        pluginLoadPromises.push(import('@xrs/shein'))
-                        break;
+                        return import('@xrs/shein')
                     default:
                         break;
                 }
@@ -29,6 +28,10 @@ class PluginManager {
 
     getPlugin(namespace) {
         return this.plugins.get(namespace)
+    }
+
+    getAllPugins() {
+        return [...this.plugins.entries()]
     }
 }
 
