@@ -1,5 +1,5 @@
 // import { List } from '@xrs/common'
-const List = () => {
+const List = ({ i18n }) => {
     return <div style={{ color: 'red' }}>Sheeeeeeeeeein</div>
 }
 export default List

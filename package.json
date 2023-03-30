@@ -5,8 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "lerna --scope @xrs/irms run dev",
-    "build:shein": "lerna --scope @xrs/shein run build"
+    "start": "lerna --scope @xrs/core run start",
+    "build:shein": "lerna --scope @xrs/shein run build",
+    "build:irms": "lerna --scope @xrs/irms run build"
   },
   "devDependencies": {
     "lerna": "^6.6.1"

@@ -1,3 +1,8 @@
 import List from "./components/SheinList";
-import { show } from "./util";
-export { List,show }
+import { mapParser } from "./util";
+import locales from './locales'
+
+export default {
+    namespace: 'shein',
+    List, mapParser, locales
+}

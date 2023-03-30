@@ -1,3 +1,3 @@
-export function show() {
+export function mapParser() {
     console.log("I'm Plugin");
 }
