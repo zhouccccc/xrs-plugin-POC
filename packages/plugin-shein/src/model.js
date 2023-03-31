@@ -2,7 +2,7 @@ export default {
     namespace: 'shein',
 
     state: {
-        name: 'shein1',
+        name: 'shein',
     },
 
     effects: {},
